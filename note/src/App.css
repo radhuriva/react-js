@@ -1,0 +1,53 @@
+.box {
+  background-color: rgb(255, 221, 227);
+  padding: 4%;
+  margin: 5%;
+  border-radius: 5% 10%;
+  box-shadow: 4px 4px 4px pink;
+}
+.box:hover {
+  background-color: rgb(207, 170, 179);
+  box-shadow: 4px 4px 4px rgb(225, 211, 213);
+  color: white;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main button {
+  padding: 2%;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10%;
+}
+.main button:hover {
+  background-color: white;
+  color: brown;
+}
+.main {
+  h1,
+  h4,
+  p {
+    padding-bottom: 3%;
+  }
+}
+.navbar {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  padding: 2%;
+}
+.form {
+  padding-left: 2%;
+}
+input,
+textarea {
+  padding: 1% 80% 1% 1%;
+}
+.form button {
+  padding: 0.5%;
+  background-color: rgb(28, 135, 243);
+  border: none;
+  border-radius: 5%;
+  color: white;
+}

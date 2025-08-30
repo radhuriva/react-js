@@ -1,18 +1,21 @@
 import Logo from "../assets/react.svg";
+import { Button } from "./Button";
 
-function Navbar() {
+function Navbar({ name, user, count = 0, btnText }) {
   return (
-    <div className="nav">
-      <div className="logo">
-        <img src={Logo} alt="Logo" />
-      </div>
-      <ul>
-        <li>home</li>
-        <li>contact</li>
-        <li>about</li>
-        <li>feetback</li>
+    <nav className="navbar">
+      <img src={Logo} alt="Logo" className="logo" />
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+        <li>Feedback</li>
+        <li>{name}</li>
+        <li>{user}</li>
+        <li>{count}</li>
       </ul>
-    </div>
+      <Button btnText={btnText} />
+    </nav>
   );
 }
 

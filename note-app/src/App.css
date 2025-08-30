@@ -1,11 +1,9 @@
-.nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(222, 220, 227);
-  padding: 10px 30px;
-  width: 350%;
-  margin-bottom: 160%;
+  background-color: rgb(41, 13, 111);
+  padding: 20px 30px;
 }
 
 ul {
@@ -16,5 +14,19 @@ ul {
 }
 
 li {
-  color: rgb(81, 10, 68);
+  color: rgb(174, 151, 170);
+}
+
+textarea {
+  width: 25%;
+  padding: 20px;
+  border: 3px solid #131111;
+  border-radius: 6px;
+}
+
+input {
+  width: 15%;
+  padding: 5px;
+  border: 3px solid #131111;
+  border-radius: 6px;
 }
